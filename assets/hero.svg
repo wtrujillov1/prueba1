@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 570">
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0v32" fill="none" stroke="#cad4be" stroke-width=".8"/></pattern><linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb86b"/><stop offset="1" stop-color="#ed7141"/></linearGradient><linearGradient id="cube" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8cb7ff"/><stop offset="1" stop-color="#294ce4"/></linearGradient></defs>
+<rect x="10" y="20" width="580" height="530" fill="url(#grid)"/>
+<circle cx="310" cy="279" r="194" fill="none" stroke="#a5b79a" stroke-width="1.2" stroke-dasharray="5 7"/>
+<ellipse cx="305" cy="319" rx="254" ry="65" transform="rotate(-26 305 319)" fill="none" stroke="#172322" stroke-width="1.2"/>
+<path d="m73 122 38-10m-19-19 1 38m385 302 29-9m-20-10 8 29" stroke="#172322" stroke-width="2"/>
+<circle cx="474" cy="116" r="11" fill="#294ce4"/><circle cx="63" cy="402" r="6" fill="#172322"/>
+<circle cx="378" cy="177" r="91" fill="url(#orb)"/>
+<path d="M299 222c46 23 116 13 166-34m-157-66c21 48 80 80 158 63" stroke="#a95331" stroke-width="1" fill="none" opacity=".55"/>
+<g transform="translate(103 160) rotate(-9 145 138)">
+<rect x="12" y="12" width="283" height="263" rx="17" fill="#172322" opacity=".12"/>
+<rect width="283" height="263" rx="17" fill="#f8f8f2" stroke="#172322" stroke-width="1.5"/>
+<path d="M0 35h283" stroke="#172322" stroke-width="1.5"/>
+<circle cx="17" cy="18" r="4" fill="#ed7141"/><circle cx="32" cy="18" r="4" fill="#d8ed64"/><circle cx="47" cy="18" r="4" fill="#294ce4"/>
+<path d="M238 18h26" stroke="#172322"/>
+<path d="M35 62h54m-54 9h33m146 166h35" stroke="#a5b79a" stroke-width="2"/>
+<ellipse cx="142" cy="228" rx="86" ry="13" fill="#dfe4d7"/>
+<rect x="100" y="151" width="86" height="54" rx="13" fill="#becbdc" stroke="#172322" stroke-width="2"/>
+<rect x="62" y="101" width="164" height="70" rx="22" fill="#d8ed64" stroke="#172322" stroke-width="2"/>
+<rect x="81" y="115" width="126" height="39" rx="14" fill="#172322"/>
+<circle cx="109" cy="134" r="7" fill="#d8ed64"/><circle cx="179" cy="134" r="7" fill="#d8ed64"/>
+<path d="M137 137h12m-4-37V84" stroke="#172322" stroke-width="2.5"/><circle cx="145" cy="80" r="5" fill="#ed7141" stroke="#172322" stroke-width="1.5"/>
+<path d="m100 179-35 7m118-7 35 7" stroke="#172322" stroke-width="10" stroke-linecap="round"/>
+<rect x="72" y="192" width="31" height="31" rx="10" fill="#172322"/><rect x="181" y="192" width="31" height="31" rx="10" fill="#172322"/>
+<path d="M125 183h34m-24 11h14" stroke="#172322" stroke-width="2"/>
+</g>
+<g transform="translate(333 330) rotate(10)"><rect x="8" y="8" width="162" height="129" rx="12" fill="#172322" opacity=".13"/><rect width="162" height="129" rx="12" fill="#c4a8ec" stroke="#172322" stroke-width="1.5"/><path d="M0 27h162" stroke="#172322" stroke-width="1.5"/><circle cx="15" cy="14" r="3" fill="#172322"/><path d="M128 14h19M18 48h54m-54 11h34" stroke="#172322" stroke-width="2"/><rect x="19" y="80" width="26" height="29" rx="3" fill="#f8f8f2" stroke="#172322"/><rect x="52" y="65" width="26" height="44" rx="3" fill="#d8ed64" stroke="#172322"/><rect x="85" y="49" width="26" height="60" rx="3" fill="#294ce4" stroke="#172322"/><path d="m126 94 13-13m-13 0h13v13" stroke="#172322" stroke-width="2" fill="none"/></g>
+<g transform="translate(424 235)"><circle cx="55" cy="47" r="72" fill="#76bfa7" stroke="#172322" stroke-width="1.5"/><path d="M55 82V23" fill="none" stroke="#172322" stroke-width="3"/><path d="M55 48c-29-1-41-19-39-40 25 0 41 15 39 40Zm0-17c2-24 16-38 38-38 3 24-8 41-38 44" fill="#d8ed64" stroke="#172322" stroke-width="2"/><path d="M32 71h47l-7 37H39Z" fill="#f8f8f2" stroke="#172322" stroke-width="2"/><path d="M41 84h29m-24 10h19" stroke="#a5b79a"/></g>
+<path d="m181 445 51 30 51-30v-59l-51-30-51 30Z" fill="url(#cube)" stroke="#172322" stroke-width="1.5"/><path d="m181 386 51 30 51-30m-51 30v59" fill="none" stroke="#172322" stroke-width="1.5"/><path d="m209 382 24-14 23 14-23 14Z" fill="#b5d4ff"/>
+<g transform="translate(48 450) rotate(-8)"><rect width="109" height="40" rx="20" fill="#f8f8f2" stroke="#172322"/><text x="54" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#172322">CREAR. CONECTAR.</text></g>
+<path d="m293 60 3 11 11 3-11 3-3 11-3-11-11-3 11-3Z" fill="#172322"/>
+</svg>

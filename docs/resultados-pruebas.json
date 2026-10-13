@@ -1,0 +1,99 @@
+{
+  "groups_passed": 16,
+  "checks": [
+    "390px: images, layout and axe audit",
+    "768px: images, layout and axe audit",
+    "1440px: images, layout and axe audit",
+    "No JavaScript errors, failed requests or external resources",
+    "Semantic heading hierarchy, anchor destinations and associated labels",
+    "Keyboard skip link and visible focus",
+    "Keyboard menu, Escape, destination focus and breakpoint synchronization",
+    "All project filters by keyboard, pressed states and live count",
+    "Empty fields, whitespace name, invalid email and first-error focus",
+    "Valid submission, accessible feedback, reset and no data transmission/storage",
+    "No horizontal overflow at 320, 640, 1024, 1280 and 1920px",
+    "Reflow equivalent to 200% zoom on a 1440px display (720 CSS px, DPR 2)",
+    "200% text enlargement at 390px without horizontal overflow",
+    "Without JavaScript: navigation and projects remain available, demo form disabled",
+    "Reduced-motion preference disables smooth scrolling",
+    "Nine primary text/background combinations meet 4.5:1 contrast"
+  ],
+  "axe": [
+    {
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "passes": 47
+    },
+    {
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "passes": 47
+    },
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ],
+      "passes": 47
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "#172322",
+      "background": "#f8f8f2",
+      "ratio": 15.15
+    },
+    {
+      "foreground": "#52615f",
+      "background": "#f8f8f2",
+      "ratio": 6.09
+    },
+    {
+      "foreground": "#52615f",
+      "background": "#eef0e9",
+      "ratio": 5.65
+    },
+    {
+      "foreground": "#ffffff",
+      "background": "#294ce4",
+      "ratio": 6.46
+    },
+    {
+      "foreground": "#d8ed64",
+      "background": "#172322",
+      "ratio": 12.48
+    },
+    {
+      "foreground": "#d0dbd5",
+      "background": "#172322",
+      "ratio": 11.37
+    },
+    {
+      "foreground": "#b7c5bd",
+      "background": "#172322",
+      "ratio": 9.03
+    },
+    {
+      "foreground": "#a12626",
+      "background": "#f8f8f2",
+      "ratio": 6.98
+    },
+    {
+      "foreground": "#657265",
+      "background": "#ffffff",
+      "ratio": 5.06
+    }
+  ],
+  "screenshots": [
+    "movil-390.png",
+    "tableta-768.png",
+    "escritorio-1440.png"
+  ]
+}

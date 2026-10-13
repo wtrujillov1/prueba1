@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Proyecta: una feria de proyectos estudiantiles para descubrir ideas, conocer a sus creadores y compartir el futuro del campus.">
+    <meta name="theme-color" content="#f8f8f2">
+    <title>Proyecta · Feria de proyectos estudiantiles</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link
+      rel="preload"
+      href="assets/fonts/space-grotesk.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Proyecta, inicio"
+          ><img
+            src="assets/favicon.svg"
+            alt=""
+            width="36"
+            height="36">proyecta<span class="brand-dot">.</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="navegacion"
+          hidden
+        >
+          <span>Menú</span><span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <nav id="navegacion" aria-label="Navegación principal">
+          <a href="#feria">La feria</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#programa">Programa</a>
+          <a class="nav-cta" href="#participa"
+            >Quiero participar <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="contenido" tabindex="-1">
+      <section class="hero container" id="inicio" aria-labelledby="titulo">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span> FERIA DE
+            PROYECTOS ESTUDIANTILES · 2026
+          </p>
+          <h1 id="titulo">
+            El futuro<br>empieza con<br><span>una idea.</span>
+          </h1>
+          <p class="hero-description">
+            El talento de la Universidad Politécnica Salesiana se encuentra para
+            compartir ideas, mostrar lo que creamos e imaginar un mundo mejor.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos"
+              >Explorar proyectos <span aria-hidden="true">↗</span></a
+            >
+            <a class="text-link" href="#programa"
+              >Ver el programa <span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div class="hero-details">
+            <div>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 5h14v15H5zM8 3v4m8-4v4M5 10h14" /></svg
+              ><span
+                ><strong
+                  ><time datetime="2026-10-18">18 de octubre</time></strong
+                ><small>Acceso libre · Encuentro en línea</small></span
+              >
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" />
+                <circle cx="12" cy="10" r="2" /></svg
+              ><span
+                ><strong>Modalidad remota</strong
+                ><small>Universidad Politécnica Salesiana</small></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-topline">
+            <span>IDEAS EN MOVIMIENTO</span><span aria-hidden="true">↗</span>
+          </div>
+          <img
+            class="hero-art"
+            src="assets/hero.svg"
+            alt="Ilustración de un robot, una planta y una interfaz digital: tecnología, sostenibilidad y creatividad en un mismo espacio."
+            width="600"
+            height="570"
+            fetchpriority="high">
+          <div class="visual-bottomline">
+            <span>HECHO POR ESTUDIANTES.<br>PENSADO PARA EL MUNDO.</span
+            ><span class="edition">01 / 2026</span>
+          </div>
+        </div>
+      </section>
+      <aside class="theme-strip" aria-label="Áreas de la feria">
+        <div class="container">
+          <span>Tecnología</span><span aria-hidden="true">✳</span
+          ><span>Sostenibilidad</span><span aria-hidden="true">✳</span
+          ><span>Diseño</span><span aria-hidden="true">✳</span
+          ><span>Impacto social</span><span aria-hidden="true">✳</span
+          ><span>Ideas que conectan</span>
+        </div>
+      </aside>
+      <section
+        class="about-section container section-space"
+        id="feria"
+        aria-labelledby="feria-titulo"
+      >
+        <div class="section-intro">
+          <p class="eyebrow">01 / LA FERIA</p>
+          <h2 id="feria-titulo">Del aula<br>al mundo real.</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">Las mejores ideas crecen cuando se comparten.</p>
+          <p>
+            Proyecta reúne a estudiantes de la Universidad Politécnica Salesiana
+            con proyectos que responden a desafíos de nuestro entorno. Conéctate
+            para descubrir prototipos, conversar con sus creadores y descubrir
+            nuevas formas de aprender haciendo.
+          </p>
+          <div class="about-features">
+            <div>
+              <span class="feature-icon" aria-hidden="true">↗</span>
+              <h3>Descubre</h3>
+              <p>Explora soluciones y mira cómo funcionan.</p>
+            </div>
+            <div>
+              <span class="feature-icon" aria-hidden="true">✳</span>
+              <h3>Conecta</h3>
+              <p>Intercambia ideas con estudiantes y docentes.</p>
+            </div>
+            <div>
+              <span class="feature-icon" aria-hidden="true">＋</span>
+              <h3>Comparte</h3>
+              <p>Dale un espacio a tu próximo gran proyecto.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="projects-section section-space"
+        id="proyectos"
+        aria-labelledby="proyectos-titulo"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 / PROYECTOS</p>
+              <h2 id="proyectos-titulo">
+                Pequeñas ideas.<br>Grandes posibilidades.
+              </h2>
+            </div>
+            <p>
+              Cada proyecto es una nueva manera<br class="desktop-break">
+              de mirar el mundo. Encuentra la tuya.
+            </p>
+          </div>
+          <div class="project-toolbar">
+            <div
+              class="filters"
+              role="group"
+              aria-label="Filtrar proyectos por área"
+              hidden
+            >
+              <button
+                class="filter-button"
+                type="button"
+                data-filter="todos"
+                aria-pressed="true"
+              >
+                Todos</button
+              ><button
+                class="filter-button"
+                type="button"
+                data-filter="tecnologia"
+                aria-pressed="false"
+              >
+                Tecnología</button
+              ><button
+                class="filter-button"
+                type="button"
+                data-filter="sostenibilidad"
+                aria-pressed="false"
+              >
+                Sostenibilidad</button
+              ><button
+                class="filter-button"
+                type="button"
+                data-filter="diseno"
+                aria-pressed="false"
+              >
+                Diseño e impacto
+              </button>
+            </div>
+            <p
+              id="project-count"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            >
+              6 proyectos para descubrir
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card" data-category="tecnologia">
+              <div class="project-image art-lilac">
+                <img
+                  src="assets/robot.svg"
+                  alt="Prototipo de robot móvil con sensores y dos ruedas."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">01</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">TECNOLOGÍA</p>
+                <h3>RoboRuta</h3>
+                <p>
+                  Un robot que transforma obstáculos en nuevas rutas de
+                  aprendizaje.
+                </p>
+                <p class="project-team">Equipo Circuito · Ingeniería</p>
+              </div>
+            </article>
+            <article class="project-card" data-category="sostenibilidad">
+              <div class="project-image art-green">
+                <img
+                  src="assets/plant.svg"
+                  alt="Sistema de cultivo con una planta, sensores de humedad y riego por goteo."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">02</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">SOSTENIBILIDAD</p>
+                <h3>Raíz inteligente</h3>
+                <p>
+                  Un huerto que cuida cada gota con sensores y riego
+                  responsable.
+                </p>
+                <p class="project-team">Equipo Raíz · Ciencias ambientales</p>
+              </div>
+            </article>
+            <article class="project-card" data-category="diseno">
+              <div class="project-image art-orange">
+                <img
+                  src="assets/app.svg"
+                  alt="Interfaz de una aplicación de apoyo al estudio con un calendario y tarjetas de tareas."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">03</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">DISEÑO E IMPACTO</p>
+                <h3>Campus contigo</h3>
+                <p>
+                  Una app para organizar el estudio y encontrar una red de
+                  apoyo.
+                </p>
+                <p class="project-team">Equipo Nexo · Diseño y educación</p>
+              </div>
+            </article>
+            <article class="project-card" data-category="tecnologia">
+              <div class="project-image art-blue">
+                <img
+                  src="assets/energy.svg"
+                  alt="Maqueta de una vivienda con panel solar y un medidor de energía."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">04</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">TECNOLOGÍA</p>
+                <h3>Energía a la vista</h3>
+                <p>
+                  Datos simples para entender y reducir el consumo de energía.
+                </p>
+                <p class="project-team">Equipo Voltio · Ingeniería</p>
+              </div>
+            </article>
+            <article class="project-card" data-category="sostenibilidad">
+              <div class="project-image art-yellow">
+                <img
+                  src="assets/circular.svg"
+                  alt="Envases reutilizables rodeados por flechas que representan la economía circular."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">05</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">SOSTENIBILIDAD</p>
+                <h3>Segunda vida</h3>
+                <p>
+                  Materiales cotidianos convertidos en objetos con nuevas
+                  posibilidades.
+                </p>
+                <p class="project-team">
+                  Equipo Circular · Ciencias ambientales
+                </p>
+              </div>
+            </article>
+            <article class="project-card" data-category="diseno">
+              <div class="project-image art-pink">
+                <img
+                  src="assets/community.svg"
+                  alt="Tres personas conectadas por una red de colaboración e intercambio de ideas."
+                  width="480"
+                  height="320"
+                  loading="lazy"><span class="project-number">06</span>
+              </div>
+              <div class="project-body">
+                <p class="project-category">DISEÑO E IMPACTO</p>
+                <h3>Puentes</h3>
+                <p>
+                  Una red de intercambio de conocimientos para aprender en
+                  comunidad.
+                </p>
+                <p class="project-team">Equipo Encuentro · Educación</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="program-section container section-space"
+        id="programa"
+        aria-labelledby="programa-titulo"
+      >
+        <div class="program-intro">
+          <p class="eyebrow">03 / PROGRAMA</p>
+          <h2 id="programa-titulo">Un día para<br>dejarte inspirar.</h2>
+          <p>
+            Conéctate, pregunta y participa.<br>Hay una idea esperando por ti.
+          </p>
+          <div class="date-card">
+            <span aria-hidden="true">18</span>
+            <div>
+              <strong>OCTUBRE / 2026</strong>
+              <p>Domingo · Horario propuesto</p>
+            </div>
+          </div>
+          <p class="access-note">
+            Hora de Ecuador (UTC−5). El enlace de acceso se publicará cuando
+            esté disponible.
+          </p>
+          <a class="text-link" href="#participa"
+            >Prepara tu participación <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <ol class="schedule">
+          <li>
+            <time datetime="2026-10-18T09:00">09:00</time>
+            <div>
+              <span class="schedule-label">BIENVENIDA</span>
+              <h3>Nos conectamos con nuevas ideas</h3>
+              <p>Presentación de la feria y guía de las salas virtuales.</p>
+              <span class="location">Sala virtual principal</span>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-10-18T10:00">10:00</time>
+            <div>
+              <span class="schedule-label">EXHIBICIÓN</span>
+              <h3>Proyectos en acción</h3>
+              <p>
+                Demostraciones, prototipos y conversaciones con los equipos.
+              </p>
+              <span class="location">Salas virtuales de proyectos</span>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-10-18T13:00">13:00</time>
+            <div>
+              <span class="schedule-label">TALLER</span>
+              <h3>De la pregunta al prototipo</h3>
+              <p>
+                Un ejercicio colaborativo para convertir un reto en una
+                solución.
+              </p>
+              <span class="location">Sala virtual de taller</span>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-10-18T15:00">15:00</time>
+            <div>
+              <span class="schedule-label">ENCUENTRO</span>
+              <h3>Ideas que merecen compartirse</h3>
+              <p>Presentaciones breves y diálogo abierto con docentes.</p>
+              <span class="location">Sala virtual principal</span>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-10-18T16:30">16:30</time>
+            <div>
+              <span class="schedule-label">CIERRE</span>
+              <h3>El próximo paso empieza aquí</h3>
+              <p>Reconocimientos y nuevas conexiones para seguir creando.</p>
+              <span class="location">Sala virtual principal</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+      <section
+        class="participate-section section-space"
+        id="participa"
+        aria-labelledby="participa-titulo"
+      >
+        <div class="container participate-grid">
+          <div class="participate-copy">
+            <p class="eyebrow">04 / SÉ PARTE</p>
+            <h2 id="participa-titulo">
+              Tu próxima<br>idea empieza<br><span>aquí.</span>
+            </h2>
+            <p>
+              Conéctate para descubrir o presentar tu propio proyecto. Hay
+              espacio para tu curiosidad.
+            </p>
+            <ul class="participate-benefits">
+              <li>Acceso remoto y gratuito para la comunidad educativa</li>
+              <li>Proyectos de todas las áreas de estudio</li>
+              <li>Un día de aprendizaje y nuevas conexiones</li>
+            </ul>
+            <p class="form-notice">
+              Registro de demostración: tus datos se validan en este navegador y
+              no se envían ni se guardan.
+            </p>
+          </div>
+          <form
+            id="registration-form"
+            class="registration-form"
+            action="#participa"
+            method="get"
+          >
+            <h3>Nos vemos en la feria</h3>
+            <p class="form-intro">
+              Completa tus datos para preparar tu participación.
+            </p>
+            <noscript
+              ><p class="noscript-note">
+                Activa JavaScript para probar el registro de demostración. Este
+                formulario no envía datos.
+              </p></noscript
+            >
+            <fieldset id="registration-fields" disabled>
+              <legend class="visually-hidden">Datos de participación</legend>
+              <div class="field">
+                <label for="full-name"
+                  >Nombre completo <span aria-hidden="true">*</span></label
+                ><input
+                  type="text"
+                  id="full-name"
+                  name="nombre"
+                  autocomplete="name"
+                  required
+                  minlength="3"
+                  maxlength="100"
+                  placeholder="Tu nombre y apellido"
+                  aria-describedby="name-error">
+                <p class="field-error" id="name-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="email"
+                  >Correo electrónico <span aria-hidden="true">*</span></label
+                ><input
+                  id="email"
+                  name="correo"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="254"
+                  placeholder="nombre@ejemplo.com"
+                  aria-describedby="email-error">
+                <p class="field-error" id="email-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="role"
+                  >¿Cómo quieres participar?
+                  <span aria-hidden="true">*</span></label
+                ><select
+                  id="role"
+                  name="participacion"
+                  required
+                  aria-describedby="role-error"
+                >
+                  <option value="">Selecciona una opción</option>
+                  <option value="visitante">Quiero visitar la feria</option>
+                  <option value="expositor">
+                    Quiero presentar un proyecto
+                  </option>
+                  <option value="voluntario">Quiero ser voluntario/a</option>
+                </select>
+                <p class="field-error" id="role-error" hidden></p>
+              </div>
+              <div class="field checkbox-field">
+                <div>
+                  <input
+                    id="consent"
+                    name="confirmacion"
+                    type="checkbox"
+                    required
+                    aria-describedby="consent-error"><label for="consent"
+                    >Entiendo que este es un registro de demostración y no
+                    confirma una inscripción real.</label
+                  >
+                </div>
+                <p class="field-error" id="consent-error" hidden></p>
+              </div>
+              <p class="required-note">* Campos obligatorios</p>
+              <button class="button button-primary submit-button" type="submit">
+                Preparar mi participación <span aria-hidden="true">↗</span>
+              </button>
+            </fieldset>
+            <p
+              id="form-feedback"
+              class="form-feedback"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <a class="brand" href="#inicio" aria-label="Proyecta, volver al inicio"
+          ><img
+            src="assets/favicon.svg"
+            alt=""
+            width="36"
+            height="36">proyecta<span class="brand-dot">.</span></a
+        >
+        <p>El talento se encuentra.<br>Las ideas se comparten.</p>
+        <a class="text-link" href="#inicio"
+          >Volver arriba <span aria-hidden="true">↑</span></a
+        >
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Proyecta · Proyecto académico</p>
+        <p>Proyectos y horarios de ejemplo · Modalidad remota</p>
+      </div>
+    </footer>
+  </body>
+</html>
