@@ -2,6 +2,8 @@
 
 **Universidad Politécnica Salesiana · 18 de octubre de 2026 · Modalidad remota**
 
+**Repositorio del proyecto:** [https://github.com/wtrujillov1/prueba1](https://github.com/wtrujillov1/prueba1)
+
 ## Objetivo y decisiones
 
 Promocionar una feria de proyectos estudiantiles mediante cinco secciones: inicio, presentación, proyectos, programa y participación. La información de la institución, fecha y modalidad corresponde a los datos facilitados; los equipos, proyectos y horarios son ejemplos editables. El programa usa la hora de Ecuador (UTC−5).
